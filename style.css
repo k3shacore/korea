@@ -1,0 +1,57 @@
+/* Палитра по мотивам флага Тэгукги */
+:root {
+  --kr-blue: #003478;
+  --kr-red: #c60c30;
+  --kr-bg: #f7f6f2;
+  --kr-text: #1f2430;
+  --bs-primary: var(--kr-blue);
+  --bs-primary-rgb: 0, 52, 120;
+  --bs-danger: var(--kr-red);
+  --bs-danger-rgb: 198, 12, 48;
+  --bs-body-color: var(--kr-text);
+  --bs-body-bg: var(--kr-bg);
+  --bs-body-font-family: "Segoe UI", "Noto Sans", system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, .navbar-brand { font-family: Georgia, "Noto Serif", serif; }
+
+/* Bootstrap-кнопки в цветах флага */
+.btn-primary { --bs-btn-bg: var(--kr-blue); --bs-btn-border-color: var(--kr-blue); --bs-btn-hover-bg: #00255a; --bs-btn-hover-border-color: #00255a; }
+.btn-danger { --bs-btn-bg: var(--kr-red); --bs-btn-border-color: var(--kr-red); --bs-btn-hover-bg: #a00a28; --bs-btn-hover-border-color: #a00a28; }
+
+.navbar-brand { color: var(--kr-blue); }
+.navbar .nav-link.active { color: var(--kr-red); font-weight: 600; }
+
+/* Отступ при переходе по якорям под закреплённый навбар */
+section[id] { scroll-margin-top: 70px; }
+body { padding-top: 56px; }
+
+/* Hero: вместо фото - спокойный градиент, фото можно вставить через background-image */
+.hero {
+  min-height: 80vh;
+  color: #fff;
+  background: linear-gradient(120deg, rgba(0, 52, 120, .92), rgba(0, 37, 90, .78)), var(--kr-blue);
+}
+
+.section-title {
+  color: var(--kr-blue);
+  padding-bottom: .4rem;
+  border-bottom: 3px solid var(--kr-red);
+  display: inline-block;
+}
+
+/* Единый стиль карточек */
+.card { border: 1px solid #e3e0d8; border-radius: .5rem; overflow: hidden; }
+.card-img-top { height: 200px; object-fit: cover; background: #dfe6ee; }
+
+.nav-tabs .nav-link { color: var(--kr-blue); }
+.nav-tabs .nav-link.active { color: var(--kr-red); font-weight: 600; }
+.accordion-button:not(.collapsed) { color: var(--kr-blue); background: #eaf0f8; }
+
+footer { background: var(--kr-blue); color: #fff; }
+
+/* Кнопка "наверх" */
+#toTop { position: fixed; right: 1.25rem; bottom: 1.25rem; width: 3rem; height: 3rem; display: none; z-index: 1030; }
+#toTop.show { display: block; }
+
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

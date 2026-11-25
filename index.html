@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Южная Корея: путеводитель для путешественника</title>
+  <meta name="description" content="Путешествия, культура, еда, язык, история и практические советы для туристов в Южной Корее.">
+  <!-- Bootstrap 5 и Bootstrap Icons через CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+<header>
+  <nav id="mainNav" class="navbar navbar-expand-lg bg-white border-bottom fixed-top" aria-label="Основная навигация">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#top"><i class="bi bi-compass me-2"></i>Корея</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#destinations">Направления</a></li>
+          <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+          <li class="nav-item"><a class="nav-link" href="#food">Кухня</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tips">Советы</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- 1. Hero. Фото: панорама Сеула с дворцом Кёнбоккун на фоне гор -->
+  <section class="hero d-flex align-items-center">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="display-3 fw-bold">Южная Корея: от дворцов Сеула до вулканов Чеджу</h1>
+          <p class="lead my-4">Страна, где тысячелетние храмы стоят рядом с небоскрёбами, а ужин на уличном рынке запоминается дольше любого музея. Здесь собрано всё, что нужно для первой поездки.</p>
+          <a href="#destinations" class="btn btn-danger btn-lg"><i class="bi bi-geo-alt me-2"></i>Выбрать направление</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Направления -->
+  <section id="destinations" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-2">Направления</h2>
+      <p class="text-secondary mb-4">Пять мест, с которых удобно начать знакомство со страной.</p>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <!-- Фото: ночной Сеул, башня N Seoul Tower -->
+            <img data-ph class="card-img-top" alt="Башня N Seoul Tower над огнями ночного Сеула">
+            <div class="card-body">
+              <h3 class="h5 card-title">Сеул</h3>
+              <p>Столица, где дворцы эпохи Чосон соседствуют с кварталами моды и кофеен.</p>
+              <ul class="list-unstyled small mb-0">
+                <li><i class="bi bi-eye me-2"></i>Дворец Кёнбоккун, Букчон, рынок Кванджан</li>
+                <li><i class="bi bi-calendar-event me-2"></i>Апрель, май, сентябрь, октябрь</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <!-- Фото: разноцветные дома деревни Гамчхон на склоне холма -->
+            <img data-ph class="card-img-top" alt="Разноцветные дома деревни Гамчхон в Пусане">
+            <div class="card-body">
+              <h3 class="h5 card-title">Пусан</h3>
+              <p>Портовый город с пляжами, рыбным рынком и храмом на морском утёсе.</p>
+              <ul class="list-unstyled small mb-0">
+                <li><i class="bi bi-eye me-2"></i>Пляж Хэундэ, храм Хэдонъёнгунса, рынок Чагальчи</li>
+                <li><i class="bi bi-calendar-event me-2"></i>Июнь, сентябрь, октябрь</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <!-- Фото: утёс Сончжирокчи и море на острове Чеджу -->
+            <img data-ph class="card-img-top" alt="Вулканический берег острова Чеджу и море">
+            <div class="card-body">
+              <h3 class="h5 card-title">Остров Чеджу</h3>
+              <p>Вулканический остров с лавовыми пещерами, водопадами и мандариновыми садами.</p>
+              <ul class="list-unstyled small mb-0">
+                <li><i class="bi bi-eye me-2"></i>Гора Халласан, пик Сонсан Ильчхульбон, лавовые туннели</li>
+                <li><i class="bi bi-calendar-event me-2"></i>Апрель, май (рапс), октябрь</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-6">
+          <article class="card h-100">
+            <!-- Фото: храм Пульгукса на закате -->
+            <img data-ph class="card-img-top" alt="Храм Пульгукса в Кёнджу">
+            <div class="card-body">
+              <h3 class="h5 card-title">Кёнджу</h3>
+              <p>Древняя столица королевства Силла: курганы, храмы и обсерватория VII века.</p>
+              <ul class="list-unstyled small mb-0">
+                <li><i class="bi bi-eye me-2"></i>Храм Пульгукса, грот Соккурам, пруд Волчжи</li>
+                <li><i class="bi bi-calendar-event me-2"></i>Апрель (цветение вишни), октябрь</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-12 col-lg-6">
+          <article class="card h-100">
+            <!-- Фото: скалистые вершины национального парка Сораксан осенью -->
+            <img data-ph class="card-img-top" alt="Скалистые вершины национального парка Сораксан осенью">
+            <div class="card-body">
+              <h3 class="h5 card-title">Сораксан</h3>
+              <p>Национальный парк с гранитными пиками, горными тропами и канатной дорогой к скалам Квонгымсон.</p>
+              <ul class="list-unstyled small mb-0">
+                <li><i class="bi bi-eye me-2"></i>Скалы Улсанбави, храм Синхынса, канатная дорога</li>
+                <li><i class="bi bi-calendar-event me-2"></i>Середина октября (осенние краски)</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Культура и традиции -->
+  <section id="culture" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="section-title mb-4">Культура и традиции</h2>
+      <ul class="nav nav-tabs" id="cultureTabs" role="tablist">
+        <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-hanbok" type="button" role="tab" aria-controls="tab-hanbok" aria-selected="true">Ханбок</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-tea" type="button" role="tab" aria-controls="tab-tea" aria-selected="false">Чайная церемония</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-holidays" type="button" role="tab" aria-controls="tab-holidays" aria-selected="false">Праздники</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-kpop" type="button" role="tab" aria-controls="tab-kpop" aria-selected="false">K-pop и дорамы</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-taekwondo" type="button" role="tab" aria-controls="tab-taekwondo" aria-selected="false">Тхэквондо</button></li>
+      </ul>
+      <div class="tab-content border border-top-0 rounded-bottom p-4">
+        <div class="tab-pane fade show active" id="tab-hanbok" role="tabpanel">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-5">
+              <!-- Фото: люди в ханбоке во дворце Кёнбоккун -->
+              <img data-ph class="img-fluid rounded" alt="Туристы в ханбоке во дворце Кёнбоккун">
+            </div>
+            <div class="col-md-7">
+              <h3 class="h5"><i class="bi bi-person-standing-dress me-2"></i>Ханбок</h3>
+              <p>Традиционный костюм с короткой жакеткой чогори и широкой юбкой или брюками. Цвета и вышивка раньше показывали возраст и положение человека. Прокат ханбока рядом с дворцами стоит недорого, а в нём часто бесплатно пускают во дворцы Сеула.</p>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tab-tea" role="tabpanel">
+          <h3 class="h5"><i class="bi bi-cup-hot me-2"></i>Чайные церемонии</h3>
+          <p>Корейская церемония проще японской: главное в ней не ритуал, а спокойная беседа. Заваривают зелёный чай, а также цитрусовый юджа-ча и имбирный чай. В чайных домах Инсадона можно попробовать всё это вместе с рисовыми сладостями.</p>
+        </div>
+        <div class="tab-pane fade" id="tab-holidays" role="tabpanel">
+          <h3 class="h5"><i class="bi bi-calendar-heart me-2"></i>Соллаль и Чусок</h3>
+          <p><strong>Соллаль</strong> отмечают в первый день лунного Нового года: семьи кланяются старшим, едят суп ттоккук и играют в юннори. <strong>Чусок</strong> приходится на полнолуние осени и похож на день благодарения: семьи собираются, вспоминают предков и угощаются рисовыми пирожками сонпхён. На эти праздники транспорт и билеты нужно брать заранее.</p>
+        </div>
+        <div class="tab-pane fade" id="tab-kpop" role="tabpanel">
+          <h3 class="h5"><i class="bi bi-music-note-beamed me-2"></i>K-pop и дорамы</h3>
+          <p>Корейская волна известна во всём мире. В Сеуле можно сходить на концерт или студийную съёмку музыкальной программы, попробовать себя в караоке-комнате норэбан и найти места из любимых дорам: от парка Намсан до кафе в Ихвадоне.</p>
+        </div>
+        <div class="tab-pane fade" id="tab-taekwondo" role="tabpanel">
+          <h3 class="h5"><i class="bi bi-trophy me-2"></i>Тхэквондо</h3>
+          <p>Национальный вид спорта и олимпийская дисциплина. В Сеуле и на Мусо-Тхэквондо-вон можно посмотреть показательные выступления и записаться на разовое занятие вместе с мастером.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Кухня -->
+  <section id="food" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-2">Кухня</h2>
+      <p class="text-secondary mb-4">Почти любой обед в Корее подают с набором закусок банчан, и повторять их можно бесплатно.</p>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-4">
+          <article class="card h-100">
+            <!-- Фото: миска с кимчи -->
+            <img data-ph class="card-img-top" alt="Квашеная пекинская капуста кимчи в миске">
+            <div class="card-body">
+              <h3 class="h5 card-title">Кимчи</h3>
+              <p class="mb-0">Острая квашеная капуста с чесноком и перцем кочхугару. Подаётся к каждому приёму пищи, а на её основе варят суп и жарят рис.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <article class="card h-100">
+            <!-- Фото: каменная чаша бибимпап -->
+            <img data-ph class="card-img-top" alt="Бибимпап: рис с овощами, мясом и яйцом в каменной чаше">
+            <div class="card-body">
+              <h3 class="h5 card-title">Бибимпап</h3>
+              <p class="mb-0">Рис с овощами, мясом и яйцом. Всё перемешивают с острой пастой кочуджан. Лучшая версия подаётся в раскалённой каменной чаше.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <article class="card h-100">
+            <!-- Фото: тток-покки в красном соусе -->
+            <img data-ph class="card-img-top" alt="Тток-покки: рисовые клёцки в остром красном соусе">
+            <div class="card-body">
+              <h3 class="h5 card-title">Тток-покки</h3>
+              <p class="mb-0">Рисовые клёцки в сладко-остром соусе с рыбными лепёшками. Самая популярная уличная еда: порцию берут на ходу.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-6">
+          <article class="card h-100">
+            <!-- Фото: жарка самгёпсаль на гриле за столом -->
+            <img data-ph class="card-img-top" alt="Самгёпсаль: свиная грудинка жарится на гриле за столом">
+            <div class="card-body">
+              <h3 class="h5 card-title">Самгёпсаль</h3>
+              <p class="mb-0">Толстые ломтики свиной грудинки, которые жарят прямо на столе. Их заворачивают в салат с чесноком, пастой ссамджан и кимчи.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <article class="card h-100">
+            <!-- Фото: прилавки уличного рынка Мёндон вечером -->
+            <img data-ph class="card-img-top" alt="Прилавки с уличной едой на рынке Мёндон вечером">
+            <div class="card-body">
+              <h3 class="h5 card-title">Уличная еда</h3>
+              <p class="mb-0">Кимбап, хотток с сиропом, рыбные лепёшки одэн и жареная курица. Лучшие места: рынки Мёндон, Кванджан и Намдэмун.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Практические советы (аккордеон) -->
+  <section id="tips" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="section-title mb-4">Практические советы</h2>
+      <div class="accordion" id="tipsAccordion">
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tip-visa" aria-expanded="true" aria-controls="tip-visa"><i class="bi bi-passport me-2"></i>Визы</button>
+          </h3>
+          <div id="tip-visa" class="accordion-collapse collapse show" data-bs-parent="#tipsAccordion">
+            <div class="accordion-body">Правила зависят от гражданства и меняются, поэтому проверяйте их на сайте посольства Республики Корея перед поездкой. Многим туристам нужна электронная разрешительная система K-ETA или виза. Паспорт должен действовать не менее шести месяцев.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tip-money" aria-expanded="false" aria-controls="tip-money"><i class="bi bi-cash-coin me-2"></i>Деньги</button>
+          </h3>
+          <div id="tip-money" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+            <div class="accordion-body">Валюта: южнокорейская вона (KRW). Картой можно платить почти везде, но наличные нужны на рынках. Обменивайте деньги в Мёндоне: курс там лучше, чем в аэропорту. Чаевые давать не принято.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tip-transport" aria-expanded="false" aria-controls="tip-transport"><i class="bi bi-train-front me-2"></i>Транспорт: T-money и метро</button>
+          </h3>
+          <div id="tip-transport" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+            <div class="accordion-body">Карта T-money продаётся в круглосуточных магазинах и пополняется наличными. Она работает в метро, автобусах и такси по всей стране. Между городами быстрее всего ездить скоростным поездом KTX. В метро Сеула есть указатели на английском языке.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tip-seasons" aria-expanded="false" aria-controls="tip-seasons"><i class="bi bi-sun me-2"></i>Сезоны</button>
+          </h3>
+          <div id="tip-seasons" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+            <div class="accordion-body">Весна (апрель, май) приносит цветение вишни, осень (сентябрь, октябрь) даёт золотые склоны гор и сухую погоду. Лето жаркое и влажное, с дождями в июле. Зимой морозно, но есть горнолыжные курорты.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tip-etiquette" aria-expanded="false" aria-controls="tip-etiquette"><i class="bi bi-people me-2"></i>Этикет</button>
+          </h3>
+          <div id="tip-etiquette" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+            <div class="accordion-body">
+              <ul class="mb-0">
+                <li>Разувайтесь при входе в дом, гостевой дом и некоторые рестораны.</li>
+                <li>Старшим передавайте и принимайте вещи двумя руками.</li>
+                <li>Не втыкайте палочки в рис вертикально: так делают на поминках.</li>
+                <li>В метро не разговаривайте громко и уступайте места пожилым людям.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tip-phrases" aria-expanded="false" aria-controls="tip-phrases"><i class="bi bi-chat-dots me-2"></i>Полезные фразы</button>
+          </h3>
+          <div id="tip-phrases" class="accordion-collapse collapse" data-bs-parent="#tipsAccordion">
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table class="table table-sm align-middle mb-0">
+                  <thead><tr><th scope="col">По-корейски</th><th scope="col">Транскрипция</th><th scope="col">Значение</th></tr></thead>
+                  <tbody>
+                    <tr><td lang="ko">안녕하세요</td><td>аннёнхасейо</td><td>Здравствуйте</td></tr>
+                    <tr><td lang="ko">감사합니다</td><td>камсахамнида</td><td>Спасибо</td></tr>
+                    <tr><td lang="ko">죄송합니다</td><td>чвесонхамнида</td><td>Извините</td></tr>
+                    <tr><td lang="ko">얼마예요?</td><td>олмаеё?</td><td>Сколько стоит?</td></tr>
+                    <tr><td lang="ko">화장실이 어디예요?</td><td>хвачжансири одиеё?</td><td>Где туалет?</td></tr>
+                    <tr><td lang="ko">맛있어요</td><td>масиссоё</td><td>Вкусно</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Контакты -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <h2 class="section-title mb-2">Контакты</h2>
+          <p class="text-secondary mb-4">Задайте вопрос о поездке или предложите тему для статьи.</p>
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="name" required minlength="2">
+              <div class="invalid-feedback">Введите имя не короче двух символов.</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Электронная почта</label>
+              <input type="email" class="form-control" id="email" required>
+              <div class="invalid-feedback">Введите адрес в формате name@example.com.</div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Сообщение</label>
+              <textarea class="form-control" id="message" rows="4" required minlength="10"></textarea>
+              <div class="invalid-feedback">Напишите сообщение не короче десяти символов.</div>
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="bi bi-send me-2"></i>Отправить сообщение</button>
+            <div id="formSuccess" class="alert alert-success mt-3 d-none" role="status">Сообщение проверено. Отправка на сервер в этой версии сайта не настроена.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="py-4 text-center">
+  <div class="container">
+    <p class="mb-1">Южная Корея: путеводитель для путешественника</p>
+    <p class="small mb-0">Проверяйте визовые правила и цены перед поездкой.</p>
+  </div>
+</footer>
+
+<button id="toTop" class="btn btn-danger rounded-circle" type="button" aria-label="Наверх"><i class="bi bi-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
